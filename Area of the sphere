@@ -1,0 +1,10 @@
+#include <stdio.h>
+ void main()
+{
+	int r,sphere;
+	printf("Enter number : ");
+	scanf("%d",&r);
+	sphere=4*3.14*r*r;
+	printf("area of the sphere = %d \n",sphere);
+	 
+}
