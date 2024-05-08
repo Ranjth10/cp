@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<math.h>
+ void main()
+{
+	int r,a,n,j,i,t;
+	printf("Enter two integers : ");
+	scanf("%d%d",&r,&a);
+		i=r*a;
+	printf("%d * %d = %d\n",r,a,i);
+	t=r/a;
+	printf("%d / %d = %d\n",r,a,t);
+}
