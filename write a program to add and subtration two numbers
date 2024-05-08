@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<math.h>
+ void main()
+{
+	int r,a,sub,add;
+	printf("Enter two numbers : ");
+	scanf("%d%d",&r,&a);
+	add=r+a;
+	printf("addition= %d\n",add);
+	sub=r-a;
+	printf("subtraction= %d",sub);
+}
