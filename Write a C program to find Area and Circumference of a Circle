@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+	float are,cir, radi;
+	scanf("%f",&radi);
+	are=3.14*radi*radi;
+	cir=2*3.14*radi;
+	printf("area = %f",are);
+	printf("circumference = %f",cir);
+}
